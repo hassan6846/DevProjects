@@ -7,7 +7,7 @@ app.use(express.static("public"));
 
 // rendering the header and footer
 app.get("/",function(req,res){
-    res.render("list");
+    res.render("index");
   
     }
 );
